@@ -1,4 +1,5 @@
 
+/*
 //get stage offset relative to the page
 $(document).ready( function() {
   offset = $('#page').offset();
@@ -13,3 +14,7 @@ $(document).mousemove(function (e){
     relMouseY = mouseY - offset.top;
     console.log("x: " + relMouseX + " y: " + relMouseY);
 }); //end of document.mousemove
+*/
+
+context = document.getElementById('canvas').getContext("2d");
+console.log(context);
